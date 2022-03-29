@@ -1,4 +1,4 @@
-import db
+import Portfolio.Estudos_code_show.db as db
 from flask import Flask, abort, url_for
 
 app = Flask(__name__)
