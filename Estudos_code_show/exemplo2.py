@@ -37,13 +37,13 @@ def index():
     html = ['<ul>']
     for username, user in db.users.items():
         html.append(
-            f'<li><a href="{url_for("user", username=username)}">{user["name"]}</a></li>' # chama a funcao e passa o nome do endpoint ao inves da url
+            f'<li><a href="{url_for("user", username=username)}">{user["name"]}</a></li>' # chama a funcao e passa o nome do endpoint ao inves da url e recebe esse username
             )
     html.append('</ul>')
     return '\n'.join(html)
 
 
-def profile(username):# Se tiver username no banco de dados funciona se não da error 404
+def profile(username):# Confere se username esta no banco de dados funciona se não da error 404
     user = db.users.get(username)
 
     if user:
@@ -88,3 +88,8 @@ app.add_url_rule('/user/<username>/', view_func=profile, endpoint='user') #metod
 # endpoint= nome_unico
 # defaults= {'username': 'default_username'}
 # )
+
+
+@app.route('/user/<username>/<quote_id>/')
+def quote(username, quote_id):
+    user = db.users.get(username, {})
