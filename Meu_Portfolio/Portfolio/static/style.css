@@ -11,7 +11,7 @@ html, body{
     top: 0;
     left: 0; 
     bottom: 0;
-    background: rgba(3, 132, 207, 0.705);
+    background: rgba(3, 132, 207, 0.8);
     overflow-y: [auto];
     width: 300px;
     transition: all ease-in-out 0.5s;
@@ -117,4 +117,49 @@ section#inicio div#arraste{
 section#inicio div#arraste a{
     text-decoration: none;
     color: rgb(255, 255, 255);
+}   
+
+i.menu-mobile {
+    position: fixed;
+    color: rgb(255, 255, 255);
+    background-color: rgba(3, 132, 207, 0.4);
+    right: 1rem;
+    top: 1rem;
+    font-size: 1.5rem;
+    border-radius: 4rem;
+    cursor: pointer;
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+@media (max-width:1024px){
+    #header {
+        left: -300px
+    }
+    i.menu-mobile{
+        display: flex;
+    }
+
+    section#inicio h2{
+        font-size: 3.5rem;
+    }
+    section#inicio span#subtitle{
+        font-size: 1rem;
+        margin-right: 1rem;
+    }
+    #main{
+        margin-left: 0;
+    }
+}
+
+.menu-nav-active {
+    overflow: hidden;
+}
+
+.menu-nav-active #header {
+    left: 0;
 }
