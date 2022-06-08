@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    {% block head %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=/, initial-scale=1.0">
+    <link rel="stylesheet" href="/Meu_Portfolio/Portfolio/static/bootstrap/css/bootstrap.css">
+    <title>Portfolio do Luben</title>
+    {% endblock head %}
+</head>
+<body>
+
+  <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
+    {% block nav %}
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" >
+            <strong>Portfolio</strong>
+          </a>
+      </nav>
+    {% endblock nav%}
+    
+
+    {% block top%}{% endblock top %}
+
+    
+    <section class="section">
+        <div class="container">
+            {% block main %}{% endblock main%}
+        </div>
+      </section>
+    
+      {% block footer %}
+     <h1>Footer</h1>
+    
+        {% endblock footer%}
+      </body>
+    </html>
+    
+</body>
+</html>
