@@ -14,7 +14,7 @@ menuMobile.addEventListener('click', () => {
 
 /*Fecha o menu quando clicar em algum item e muda o icone para list*/
 
-const navItem = document.querySelectorAll('.nav-bar')
+const navItem = document.querySelectorAll('.nav-item')
 
 navItem.forEach(item => {
     item.addEventListener("click", () => {

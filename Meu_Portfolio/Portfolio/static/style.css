@@ -181,3 +181,46 @@ i.menu-mobile {
 .section-bg{
     background-color: rgba(0,0,205, 0.2);
 }
+
+.cv .cv-title{
+    font-weight: 700;
+    color: rgb(8, 8, 8);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.cv .cv-item{
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid rgb(8, 8, 8);
+    position: relative;
+}
+
+.cv .cv-item h4{
+    line-height: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(8, 8, 8);
+    font-family: Poppins, sans-serif;
+    margin-bottom: 10px;
+}
+
+.cv .cv-item h5{
+    background: rgba(121, 117, 117, 0.3);
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.cv .cv-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -9px;
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgb(8, 8, 8);
+    background: rgb(236, 233, 233);
+    border-radius: 50%;
+}
