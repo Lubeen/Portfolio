@@ -8,6 +8,7 @@ authors = ["Lubeen <luan.silvapvh@gmail.com>"]
 python = "^3.8"
 Flask = "^2.1.2"
 Flask-Mail = "^0.9.1"
+gunicorn = "^20.1.0"
 
 [tool.poetry.dev-dependencies]
 
