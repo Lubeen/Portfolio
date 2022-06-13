@@ -7,5 +7,6 @@ importlib-metadata @ file:///home/luben/.cache/pypoetry/artifacts/7c/4c/e6/9ffd5
 itsdangerous @ file:///home/luben/.cache/pypoetry/artifacts/a0/eb/86/3b57c01995c6daad9f3b47aba7edb72501b915276f47ccf22efe74a37e/itsdangerous-2.1.2-py3-none-any.whl
 Jinja2 @ file:///home/luben/.cache/pypoetry/artifacts/33/db/47/0926a99dba6f131e3566591eed52f286b44bcfddcbe351f4116fc4d26f/Jinja2-3.1.2-py3-none-any.whl
 MarkupSafe @ file:///home/luben/.cache/pypoetry/artifacts/a1/b5/ec/98e5013eaa2b18e16d1fbb1d7ebf2b940a2f0442dcb1eb2b7d16c220c4/MarkupSafe-2.1.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+python-dotenv @ file:///home/luben/.cache/pypoetry/artifacts/7b/a1/47/bbcd6a960e6172a0a8d56dd830386b5bfe5ff058a2667b345d8cb9ac88/python_dotenv-0.20.0-py3-none-any.whl
 Werkzeug @ file:///home/luben/.cache/pypoetry/artifacts/a8/99/53/2b38afce2b713a1a222b01c157d2ccf7c74b8ee3efc42a4ae5742f5d3c/Werkzeug-2.1.2-py3-none-any.whl
 zipp @ file:///home/luben/.cache/pypoetry/artifacts/4f/ef/74/a2e3ed624c546651f2ae9baca2eec6d2597a5c87b8370870bab625340c/zipp-3.8.0-py3-none-any.whl
